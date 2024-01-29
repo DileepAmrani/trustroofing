@@ -32,6 +32,8 @@ const navItems = [
         ]
     },
 
+   
+
     
 ]
 const Dropdown = ({ data }) => {
@@ -54,10 +56,8 @@ const Dropdown = ({ data }) => {
         >
             <a
                 className="nav-link dropdown-toggle text-uppercase m-0 p-0 fst-italic fw-bold fs-7"
-                href="#"
-                role="button"
+                href={data?.url}
                 id={`navbarDropdown-${data?.title}`}
-                data-bs-toggle="dropdown"
                 aria-expanded={isActive ? 'true' : 'false'}
             >
                 {data?.title}
@@ -94,7 +94,9 @@ const Navbar = () => {
                                 return <Dropdown data={v} key={i}/>
                             })
                         }
-                        <li className='text-uppercase m-0 p-0 fst-italic fw-bold fs-7'>INSTANT ROOF QUOTE</li>
+                        <li className='text-uppercase m-0 p-0 fst-italic fw-bold fs-7'>
+                        INSTANT ROOF QUOTE
+                        </li>
                     </ul>
                 </div>
                 <div className="d-flex align-items-center gap-4">

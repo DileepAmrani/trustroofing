@@ -23,7 +23,7 @@ export default function Service() {
   return (
     <main >
       <OurServices/>
-      {/* <Services /> */}
+      <Services />
 
       <Roofing />
 
