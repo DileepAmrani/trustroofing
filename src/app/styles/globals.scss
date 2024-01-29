@@ -1,0 +1,52 @@
+$theme-colors: (
+  "primary": #0054ff,
+  "secondary": #833bec,
+  "success": #1ce1ac,
+  "info": #ff7d50,
+  "warning": #ffbe0b,
+  "danger": #ff007f,
+  "light": #c0ccda,
+  "dark": #001738,
+  "boxbg": #ffffff73,
+  "servicesbg": #233479,
+  "copyrightbg": #111a3e,
+  "light-100": #233479,
+);
+
+$font-sizes: (
+  1: ".9375rem",
+  7: "15px",
+  4: "12px",
+  8: "1.25rem",
+  9: "1.125rem",
+  2: ".9375rem",
+  3: "1.5625rem",
+  6: "1.875rem",
+  10: "2.1875rem",
+  11: "1rem",
+  5: "3.125rem",
+);
+
+.footer-padding {
+  padding: 64px 0;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.gap{
+  display: flex;
+  gap: 50px;
+}
+
+ul li{
+  margin: 0;
+  padding: 0; 
+}
+
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
+

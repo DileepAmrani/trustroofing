@@ -1,0 +1,29 @@
+.navbar {
+    background-image: white;
+    background: #fff;
+
+}
+
+._btn-gradiant {
+    background-image: linear-gradient(80deg, #638ce0 20%, #0054ff 100%); 
+}
+
+.dropdown-bg {
+    background: rgba(35,52,121,.5);
+    overflow: hidden;
+    box-shadow: 0 4px 30px rgba(0,0,0,.1);
+}
+.dropdown-bg li {
+    min-width: 250px
+}
+.dropdown-bg li:hover {
+    background: rgba(35,52,121)!important;
+}
+@media only screen and (max-width: 990px) {
+    .navbar {
+        background: #0054ff;
+        background-image: linear-gradient(100deg, #0054ff, #638ce0);
+        z-index: 9999;
+    }
+  }
+
