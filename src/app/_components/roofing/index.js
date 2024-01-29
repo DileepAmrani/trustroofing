@@ -10,7 +10,6 @@ const Roofing = () => {
           </h1>
         <div className="container mt-5">
           <div className="row">
-            {/* Step # 1 */}
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
               <div className="card--w-icon h-100 px-4 rounded-5 position-relative text-white">
                 <div className="card__icon d-flex justify-content-center align-items-center pos-abs">
@@ -31,7 +30,6 @@ const Roofing = () => {
               </div>
             </div>
 
-            {/* Step # 2 */}
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
               <div className="card--w-icon px-4 h-100 rounded-5 position-relative text-white">
                 <div className="card__icon d-flex justify-content-center align-items-center pos-abs">
@@ -71,7 +69,6 @@ const Roofing = () => {
               </div>
             </div>
 
-            {/* Step # 4 */}
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
               <div className="card--w-icon h-100 px-4 rounded-5 position-relative text-white">
                 <div className="card__icon d-flex justify-content-center align-items-center pos-abs">

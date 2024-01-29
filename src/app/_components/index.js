@@ -10,7 +10,7 @@ import Hero from "./hero";
 import OurServices from "./our-services";
 import FinancingOptions from "./financing-options";
 import Faq from "./faq";
-import Testimonial from "./roofing copy"
+import Testimonial from "./testimonial"
 export {
     Navbar,
     Hero,
