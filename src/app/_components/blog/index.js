@@ -23,9 +23,9 @@ const Blog = () => {
         </div>
       </div>
 
-      <div class="container">
-        <div class="row gap-2">
-          <div className="col-lg-5 col-12">
+      <div class="container p-4">
+        <div class="row">
+          <div className="col-12 col-lg-5">
           <a
               href="/"
               class="clickable rounded-5 text-decoration-none"
@@ -46,7 +46,7 @@ const Blog = () => {
                   </picture>
                 </figure>
 
-                <div class="p-4 gr-cloud-cobalt-180deg rounded-bottom-5 ">
+                <div class="p-4 gr-cloud-cobalt-180deg rounded-bottom-5">
                   <h4 className="fw-bold text-white">Flat Roof Ventilation: Cost, Purpose &amp; More!</h4>
                   <p className="fw-bold text-white">
                     Flat roofs, with their sleek and modern aesthetic, have
@@ -59,7 +59,7 @@ const Blog = () => {
             </a>
 
           </div>
-          <div className="col-lg-7 m-0 p-0 d-flex flex-column gap-4">
+          <div className="col-12 col-lg-7 m-0 p-0 d-flex flex-column gap-4">
           <a
               href="/"
               class=" rounded-5 text-decoration-none  w-100  "

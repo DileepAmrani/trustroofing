@@ -15,7 +15,7 @@ const navItems = [
         ]
     },
     {
-        title: "Services",
+        title: "About us",
         url: "/services",
         subItem: [
             { label: 'Residential Roofing', url: '/services' },
